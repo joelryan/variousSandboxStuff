@@ -1,0 +1,128 @@
+{
+    "components": [
+        {
+            "category": "Detectors",
+            "Schema_ID": "CCD.json"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "CMOS.json"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "GenericDetector.json"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "PhotoMultiplier.json"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "GenericDetector.json"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "Detector.json"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "AnalogVideo.json"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "IntensifiedCCD.json"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "PointDetector.json"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "PhotoDiode.json"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "HybridPhotoDetector.json"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "FilterCube.json"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "ExcitationFilter.json"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "EmissionFilter.json"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "FilterSet.json"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "BeamSplitter.json"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "AdditionalFilter.json"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "AdditionalDichroic.json"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "StandardDichroic.json"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "Fluorescence_LightSource_Arc.json"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "Fluorescence_LightSource_Filament.json"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "Fluorescence_LightSource_GenericExcitationSource.json"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "Fluorescence_LightSource_Laser.json"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "Fluorescence_LightSource_LightEmittingDiode.json"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "Arc"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "GenericExcitationSource"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "Laser"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "LightEmittingDiode"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "LEDModule"
+        },
+        {
+            "category": "allPossibleSamplePositioningDevices",
+            "Schema_ID": "MechanicalStage.json"
+        },
+        {
+            "category": "allPossibleSamplePositioningDevices",
+            "Schema_ID": "PiezoElectricStage.json"
+        }
+    ]
+}
