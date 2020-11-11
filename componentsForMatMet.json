@@ -1,0 +1,103 @@
+{
+    "allPossibleDetectors": [
+        {
+            "Schema_ID": "CCD.json"
+        },
+        {
+            "Schema_ID": "CMOS.json"
+        },
+        {
+            "Schema_ID": "GenericDetector.json"
+        },
+        {
+            "Schema_ID": "PhotoMultiplier.json"
+        },
+        {
+            "Schema_ID": "GenericDetector.json"
+        },
+        {
+            "Schema_ID": "Detector.json"
+        },
+        {
+            "Schema_ID": "AnalogVideo.json"
+        },
+        {
+            "Schema_ID": "IntensifiedCCD.json"
+        },
+        {
+            "Schema_ID": "PointDetector.json"
+        },
+        {
+            "Schema_ID": "PhotoDiode.json"
+        },
+        {
+            "Schema_ID": "HybridPhotoDetector.json"
+        }
+    ],
+    "allPossibleFiltersAndDichroics": [
+        {
+            "Schema_ID": "FilterCube.json"
+        },
+        {
+            "Schema_ID": "ExcitationFilter.json"
+        },
+        {
+            "Schema_ID": "EmissionFilter.json"
+        },
+        {
+            "Schema_ID": "FilterSet.json"
+        },
+        {
+            "Schema_ID": "BeamSplitter.json"
+        },
+        {
+            "Schema_ID": "AdditionalFilter.json"
+        },
+        {
+            "Schema_ID": "AdditionalDichroic.json"
+        },
+        {
+            "Schema_ID": "StandardDichroic.json"
+        }
+    ],
+    "allPossibleFluorescenceLightSources": [
+        {
+            "Schema_ID": "Fluorescence_LightSource_Arc.json"
+        },
+        {
+            "Schema_ID": "Fluorescence_LightSource_Filament.json"
+        },
+        {
+            "Schema_ID": "Fluorescence_LightSource_GenericExcitationSource.json"
+        },
+        {
+            "Schema_ID": "Fluorescence_LightSource_Laser.json"
+        },
+        {
+            "Schema_ID": "Fluorescence_LightSource_LightEmittingDiode.json"
+        },
+        {
+            "Schema_ID": "Arc"
+        },
+        {
+            "Schema_ID": "GenericExcitationSource"
+        },
+        {
+            "Schema_ID": "Laser"
+        },
+        {
+            "Schema_ID": "LightEmittingDiode"
+        },
+        {
+            "Schema_ID": "LEDModule"
+        }
+    ],
+    "allPossibleSamplePositioningDevices": [
+        {
+            "Schema_ID": "MechanicalStage.json"
+        },
+        {
+            "Schema_ID": "PiezoElectricStage.json"
+        }
+    ]
+}
