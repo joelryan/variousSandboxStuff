@@ -1,0 +1,190 @@
+{
+    "components": [
+        {
+            "category": "Detectors",
+            "Schema_ID": "CCD.json",
+            "dialogBox_grouping": "Detectors",
+            "string_for_dialog_box": "detector"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "CMOS.json",
+            "dialogBox_grouping": "Detectors",
+            "string_for_dialog_box": "detector"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "GenericDetector.json",
+            "dialogBox_grouping": "Detectors",
+            "string_for_dialog_box": "detector"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "PhotoMultiplier.json",
+            "dialogBox_grouping": "Detectors",
+            "string_for_dialog_box": "detector"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "GenericDetector.json",
+            "dialogBox_grouping": "Detectors",
+            "string_for_dialog_box": "detector"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "Detector.json",
+            "dialogBox_grouping": "Detectors",
+            "string_for_dialog_box": "detector"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "AnalogVideo.json",
+            "dialogBox_grouping": "Detectors",
+            "string_for_dialog_box": "detector"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "IntensifiedCCD.json",
+            "dialogBox_grouping": "Detectors",
+            "string_for_dialog_box": "detector"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "PointDetector.json",
+            "dialogBox_grouping": "Detectors",
+            "string_for_dialog_box": "detector"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "PhotoDiode.json",
+            "dialogBox_grouping": "Detectors",
+            "string_for_dialog_box": "detector"
+        },
+        {
+            "category": "Detectors",
+            "Schema_ID": "HybridPhotoDetector.json",
+            "dialogBox_grouping": "Detectors",
+            "string_for_dialog_box": "detector"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "ExcitationFilter.json",
+            "dialogBox_grouping": "ExcitationFilter.json",
+            "string_for_dialog_box": "excitation filter"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "StandardDichroic.json",
+            "dialogBox_grouping": "StandardDichroic.json",
+            "string_for_dialog_box": "standard (main) dichroic"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "EmissionFilter.json",
+            "dialogBox_grouping": "EmissionFilter.json",
+            "string_for_dialog_box": "emission filter"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "FilterSet.json",
+            "dialogBox_grouping": "FilterSet.json",
+            "string_for_dialog_box": "filter set"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "FilterCube.json",
+            "dialogBox_grouping": "FilterCube.json",
+            "string_for_dialog_box": "filter cube"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "BeamSplitter.json",
+            "dialogBox_grouping": "BeamSplitter.json",
+            "string_for_dialog_box": "beam splitter"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "AdditionalFilter.json",
+            "dialogBox_grouping": "AdditionalFilter.json",
+            "string_for_dialog_box": "additional filter"
+        },
+        {
+            "category": "allPossibleFiltersAndDichroics",
+            "Schema_ID": "AdditionalDichroic.json",
+            "dialogBox_grouping": "AdditionalDichroic.json",
+            "string_for_dialog_box": "additional dichroic"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "Fluorescence_LightSource_Arc.json",
+            "dialogBox_grouping": "allPossibleFluorescenceLightSources",
+            "string_for_dialog_box": "light source"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "Fluorescence_LightSource_Filament.json",
+            "dialogBox_grouping": "allPossibleFluorescenceLightSources",
+            "string_for_dialog_box": "light source"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "Fluorescence_LightSource_GenericExcitationSource.json",
+            "dialogBox_grouping": "allPossibleFluorescenceLightSources",
+            "string_for_dialog_box": "light source"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "Fluorescence_LightSource_Laser.json",
+            "dialogBox_grouping": "allPossibleFluorescenceLightSources",
+            "string_for_dialog_box": "light source"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "Fluorescence_LightSource_LightEmittingDiode.json",
+            "dialogBox_grouping": "allPossibleFluorescenceLightSources",
+            "string_for_dialog_box": "light source"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "Arc.json",
+            "dialogBox_grouping": "allPossibleFluorescenceLightSources",
+            "string_for_dialog_box": "light source"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "GenericExcitationSource.json",
+            "dialogBox_grouping": "allPossibleFluorescenceLightSources",
+            "string_for_dialog_box": "light source"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "Laser.json",
+            "dialogBox_grouping": "allPossibleFluorescenceLightSources",
+            "string_for_dialog_box": "light source"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "LightEmittingDiode.json",
+            "dialogBox_grouping": "allPossibleFluorescenceLightSources",
+            "string_for_dialog_box": "light source"
+        },
+        {
+            "category": "allPossibleFluorescenceLightSources",
+            "Schema_ID": "LEDModule.json",
+            "dialogBox_grouping": "allPossibleFluorescenceLightSources",
+            "string_for_dialog_box": "light source"
+        },
+        {
+            "category": "SamplePositioningDevices",
+            "Schema_ID": "MechanicalStage.json",
+            "dialogBox_grouping": "SamplePositioningDevices",
+            "string_for_dialog_box": "sample positioning device"
+        },
+        {
+            "category": "SamplePositioningDevices",
+            "Schema_ID": "PiezoElectricStage.json",
+            "dialogBox_grouping": "SamplePositioningDevices",
+            "string_for_dialog_box": "sample positioning device"
+        }
+    ]
+}
