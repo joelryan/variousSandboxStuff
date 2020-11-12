@@ -59,9 +59,9 @@
             "Setting": "Line integration: ",
             "Add_to_same_row": 0,
             "Dialog_Type": "addSlider",
-            "Dialog_arg_1": "1",
-            "Dialog_arg_2": "16",
-            "Dialog_arg_3": "1",
+            "Dialog_arg_1": 1,
+            "Dialog_arg_2": 16,
+            "Dialog_arg_3": 1,
             "Dialog_arg_4": ""
         },
         {
@@ -82,9 +82,9 @@
             "Setting": "Frame integration: ",
             "Add_to_same_row": 0,
             "Dialog_Type": "addSlider",
-            "Dialog_arg_1": "1",
-            "Dialog_arg_2": "16",
-            "Dialog_arg_3": "1",
+            "Dialog_arg_1": 1,
+            "Dialog_arg_2": 16,
+            "Dialog_arg_3": 1,
             "Dialog_arg_4": ""
         },
         {
