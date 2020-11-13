@@ -1,0 +1,284 @@
+{
+    "settings": [
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Channel Description",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Light source",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": "*******",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Wavelength selection",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Detector",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": "******",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Detector gain: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Pixel Dwell time (in us): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Light source intensity: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Light intensity modulated with: ",
+            "Add_to_same_row": 1,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "AOTF",
+                "ND Filter",
+                "Direct Modulation"
+            ],
+            "Dialog_arg_2": "AOTF",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Line integration: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addSlider",
+            "Dialog_arg_1": 1,
+            "Dialog_arg_2": 16,
+            "Dialog_arg_3": 1,
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Averaging or Accumulation: ",
+            "Add_to_same_row": 1,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "Averaging",
+                "Accumulation"
+            ],
+            "Dialog_arg_2": "Averaging",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Frame integration: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addSlider",
+            "Dialog_arg_1": 1,
+            "Dialog_arg_2": 16,
+            "Dialog_arg_3": 1,
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Averaging or Accumulation: ",
+            "Add_to_same_row": 1,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "Averaging",
+                "Accumulation"
+            ],
+            "Dialog_arg_2": "Averaging",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Scan directionality: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "Unidirectional",
+                "Bidirectional"
+            ],
+            "Dialog_arg_2": "Unidirectional",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Pinhole size (in um): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "CameraAcqSettings",
+            "Setting": "Channel Description",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "CameraAcqSettings",
+            "Setting": "Exposure time (in ms): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "CameraAcqSettings",
+            "Setting": "Light source intensity: : ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "CameraAcqSettings",
+            "Setting": "Light intensity modulated with: ",
+            "Add_to_same_row": 1,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "AOTF",
+                "ND Filter",
+                "Direct Modulation"
+            ],
+            "Dialog_arg_2": "AOTF",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "CameraAcqSettings",
+            "Setting": "Camera binning: ",
+            "Add_to_same_row": 1,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "1x1",
+                "2x2",
+                "4x4"
+            ],
+            "Dialog_arg_2": "1x1",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "TIRF settings",
+            "Setting": "Method (objective or prism): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "Objective",
+                "Prism"
+            ],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "TIRF settings",
+            "Setting": "Geometry: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "Point",
+                "Ring"
+            ],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "TIRF settings",
+            "Setting": "TIRF or HILO: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "TIRF",
+                "HILO"
+            ],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "Spinning disk hardware",
+            "Setting": "Spinning disk scan head (eg. CSU-W1, Diskovery, A1R, DragonFly, etc): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "Spinning disk hardware",
+            "Setting": "Manufacturer: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "Spinning disk hardware",
+            "Setting": "Disk speed (RPM): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        }
+    ]
+}
