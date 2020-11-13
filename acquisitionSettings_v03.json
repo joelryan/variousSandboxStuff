@@ -17,14 +17,12 @@
             "CheckHardwareJSON": 1,
             "Schema_ID": [
                 "Fluorescence_LightSource_Laser.json",
-                "Fluorescence_LightSource_LightEmittingDiode.json"
+                "Fluorescence_LightSource_LightEmittingDiode.json",
+                "Fluorescence_LightSource_Arc.json",
+                "Fluorescence_LightSource_Filament.json"
             ],
             "Dialog_Type": "addChoice",
-            "Dialog_arg_1": [
-                "choice1",
-                "choice2",
-                "choice3"
-            ],
+            "Dialog_arg_1": [],
             "Dialog_arg_2": "choice1",
             "Dialog_arg_3": "",
             "Dialog_arg_4": ""
@@ -43,12 +41,21 @@
             "Dialog_Box": "CommonSettings",
             "Setting": "Detector",
             "Add_to_same_row": 0,
-            "Dialog_Type": "addChoice",
-            "Dialog_arg_1": [
-                "choice1",
-                "choice2",
-                "choice3"
+            "CheckHardwareJSON": 1,
+            "Schema_ID": [
+                "CCD.json",
+                "CMOS.json",
+                "GenericDetector.json",
+                "PhotoMultiplier.json",
+                "GenericDetector.json",
+                "Detector.json",
+                "IntensifiedCCD.json",
+                "PointDetector.json",
+                "PhotoDiode.json",
+                "HybridPhotoDetector.json"
             ],
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [],
             "Dialog_arg_2": "choice1",
             "Dialog_arg_3": "",
             "Dialog_arg_4": ""
