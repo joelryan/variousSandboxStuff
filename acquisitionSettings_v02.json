@@ -15,8 +15,12 @@
             "Setting": "Light source",
             "Add_to_same_row": 0,
             "Dialog_Type": "addChoice",
-            "Dialog_arg_1": "*******",
-            "Dialog_arg_2": "",
+            "Dialog_arg_1": [
+                "choice1",
+                "choice2",
+                "choice3"
+            ],
+            "Dialog_arg_2": "choice1",
             "Dialog_arg_3": "",
             "Dialog_arg_4": ""
         },
@@ -35,8 +39,12 @@
             "Setting": "Detector",
             "Add_to_same_row": 0,
             "Dialog_Type": "addChoice",
-            "Dialog_arg_1": "******",
-            "Dialog_arg_2": "",
+            "Dialog_arg_1": [
+                "choice1",
+                "choice2",
+                "choice3"
+            ],
+            "Dialog_arg_2": "choice1",
             "Dialog_arg_3": "",
             "Dialog_arg_4": ""
         },
