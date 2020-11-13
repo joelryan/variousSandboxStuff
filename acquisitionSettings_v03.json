@@ -175,16 +175,6 @@
         },
         {
             "Dialog_Box": "CameraAcqSettings",
-            "Setting": "Channel Description",
-            "Add_to_same_row": 0,
-            "Dialog_Type": "addStringField",
-            "Dialog_arg_1": "",
-            "Dialog_arg_2": "",
-            "Dialog_arg_3": "",
-            "Dialog_arg_4": ""
-        },
-        {
-            "Dialog_Box": "CameraAcqSettings",
             "Setting": "Exposure time (in ms): ",
             "Add_to_same_row": 0,
             "Dialog_Type": "addStringField",
@@ -296,6 +286,39 @@
             "Add_to_same_row": 0,
             "Dialog_Type": "addStringField",
             "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalHardware",
+            "Setting": "Scanhead (e.g. LSM800, SP8, A1R): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalHardware",
+            "Setting": "Manufacturer: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalHardware",
+            "Setting": "Scanning mechanism: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "Galvo",
+                "Resonant"
+            ],
             "Dialog_arg_2": "",
             "Dialog_arg_3": "",
             "Dialog_arg_4": ""
