@@ -29,7 +29,7 @@
             "Dialog_arg_3": "",
             "Dialog_arg_4": "",
             "textbefore": "",
-            "textAfter": " laser/LED/arc."
+            "textAfter": " laser/LED/arc. "
         },
         {
             "Dialog_Box": "CommonSettings",
@@ -41,7 +41,7 @@
             "Dialog_arg_3": "",
             "Dialog_arg_4": "",
             "textbefore": "Wavelength selection",
-            "textAfter": " was carried out with a"
+            "textAfter": " was carried out with a "
         },
         {
             "Dialog_Box": "CommonSettings",
@@ -57,7 +57,7 @@
             "Dialog_arg_3": "",
             "Dialog_arg_4": "",
             "textbefore": "",
-            "textAfter": " excitation filter,"
+            "textAfter": " excitation filter, "
         },
         {
             "Dialog_Box": "CommonSettings",
@@ -73,7 +73,7 @@
             "Dialog_arg_3": "",
             "Dialog_arg_4": "",
             "textbefore": "",
-            "textAfter": " dichroic mirror,"
+            "textAfter": " dichroic mirror, "
         },
         {
             "Dialog_Box": "CommonSettings",
@@ -89,7 +89,7 @@
             "Dialog_arg_3": "",
             "Dialog_arg_4": "",
             "textbefore": "",
-            "textAfter": " emission filter,"
+            "textAfter": " emission filter, "
         },
         {
             "Dialog_Box": "CommonSettings",
@@ -106,7 +106,7 @@
             "Dialog_arg_3": "",
             "Dialog_arg_4": "",
             "textbefore": "",
-            "textAfter": " filter set,"
+            "textAfter": " filter set, "
         },
         {
             "Dialog_Box": "CommonSettings",
@@ -122,7 +122,7 @@
             "Dialog_arg_3": "",
             "Dialog_arg_4": "",
             "textbefore": "",
-            "textAfter": " additional dichroic mirror,"
+            "textAfter": " additional dichroic mirror, "
         },
         {
             "Dialog_Box": "CommonSettings",
@@ -138,7 +138,7 @@
             "Dialog_arg_3": "",
             "Dialog_arg_4": "",
             "textbefore": "",
-            "textAfter": " additional filter,"
+            "textAfter": " additional filter, "
         },
         {
             "Dialog_Box": "CommonSettings",
@@ -153,7 +153,7 @@
             "Dialog_arg_2": "",
             "Dialog_arg_3": "",
             "textbefore": "",
-            "textAfter": " beamsplitter,"
+            "textAfter": " beamsplitter, "
         },
         {
             "Dialog_Box": "CommonSettings",
@@ -177,7 +177,7 @@
             "Dialog_arg_2": "choice1",
             "Dialog_arg_3": "",
             "Dialog_arg_4": "",
-            "textbefore": " a light was collector on a ",
+            "textbefore": " and emission light was collected on a ",
             "textAfter": " camera/PMT."
         },
         {
