@@ -67,6 +67,19 @@
         },
         {
             "Dialog_Box": "imgDimensions",
+            "Setting": "Dimension order: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " ",
+            "textAfter": " ",
+            "metadata value": ""
+        },
+        {
+            "Dialog_Box": "pixelSizeDepthDeltaT",
             "Setting": "Lateral pixel size (um): ",
             "Add_to_same_row": 0,
             "Dialog_Type": "addStringField",
@@ -79,8 +92,21 @@
             "metadata value": ""
         },
         {
-            "Dialog_Box": "imgDimensions",
+            "Dialog_Box": "pixelSizeDepthDeltaT",
             "Setting": "Voxel depth (um): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " ",
+            "textAfter": " ",
+            "metadata value": ""
+        },
+        {
+            "Dialog_Box": "pixelSizeDepthDeltaT",
+            "Setting": "Time interval: ",
             "Add_to_same_row": 0,
             "Dialog_Type": "addStringField",
             "Dialog_arg_1": "",
