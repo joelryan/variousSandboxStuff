@@ -1,0 +1,636 @@
+{
+    "settings": [
+        {
+            "Dialog_Box": "imgDimensions",
+            "Setting": "Image width (in pixels): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " ",
+            "textAfter": " ",
+            "metadata value": ""
+        },
+        {
+            "Dialog_Box": "imgDimensions",
+            "Setting": "Image height (in pixels): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " ",
+            "textAfter": " ",
+            "metadata value": ""
+        },
+        {
+            "Dialog_Box": "imgDimensions",
+            "Setting": "Image depth (in slices): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " ",
+            "textAfter": " ",
+            "metadata value": ""
+        },
+        {
+            "Dialog_Box": "imgDimensions",
+            "Setting": "Number of channels: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " ",
+            "textAfter": " ",
+            "metadata value": ""
+        },
+        {
+            "Dialog_Box": "imgDimensions",
+            "Setting": "Number of frames: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " ",
+            "textAfter": " ",
+            "metadata value": ""
+        },
+        {
+            "Dialog_Box": "imgDimensions",
+            "Setting": "Dimension order: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " ",
+            "textAfter": " ",
+            "metadata value": ""
+        },
+        {
+            "Dialog_Box": "pixelSizeDepthDeltaT",
+            "Setting": "Lateral pixel size (um): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " ",
+            "textAfter": " ",
+            "metadata value": ""
+        },
+        {
+            "Dialog_Box": "pixelSizeDepthDeltaT",
+            "Setting": "Voxel depth (um): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " ",
+            "textAfter": " ",
+            "metadata value": ""
+        },
+        {
+            "Dialog_Box": "pixelSizeDepthDeltaT",
+            "Setting": "Time interval: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " ",
+            "textAfter": " ",
+            "metadata value": ""
+        },
+        {
+            "Dialog_Box": "Objective",
+            "Setting": "Select objective",
+            "Add_to_same_row": 0,
+            "CheckHardwareJSON": 1,
+            "Schema_ID": "Objective.json",
+            "attributes": [
+                "Manufacturer",
+                "NominalMagnification",
+                "LensNA",
+                "Correction"
+            ],
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": "",
+            "textAfter": ""
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Channel Description",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " ",
+            "textAfter": " was excited with a/an "
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Channel Description",
+            "Add_to_same_row": 1,
+            "Dialog_Type": "addMessage",
+            "Dialog_arg_1": "(e.g.: DAPI, eGFP, Halo-JF549, etc)",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " ",
+            "textAfter": ""
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Light source",
+            "Add_to_same_row": 0,
+            "CheckHardwareJSON": 1,
+            "Schema_ID": [
+                "Fluorescence_LightSource_Laser.json",
+                "Fluorescence_LightSource_LightEmittingDiode.json",
+                "Fluorescence_LightSource_Arc.json",
+                "Fluorescence_LightSource_Filament.json"
+            ],
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": "",
+            "textAfter": " light source. "
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Wavelength selection",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addMessage",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": "Wavelength selection",
+            "textAfter": " was carried out with a "
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Excitation filter",
+            "Add_to_same_row": 0,
+            "CheckHardwareJSON": 1,
+            "Schema_ID": [
+                "ExcitationFilter.json"
+            ],
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": "",
+            "textAfter": " excitation filter, "
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Dichroic mirror",
+            "Add_to_same_row": 0,
+            "CheckHardwareJSON": 1,
+            "Schema_ID": [
+                "StandardDichroic.json"
+            ],
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": "",
+            "textAfter": " dichroic mirror, "
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Emission Filter",
+            "Add_to_same_row": 0,
+            "CheckHardwareJSON": 1,
+            "Schema_ID": [
+                "EmissionFilter.json"
+            ],
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": "",
+            "textAfter": " emission filter, "
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Filter set or filter cube",
+            "Add_to_same_row": 0,
+            "CheckHardwareJSON": 1,
+            "Schema_ID": [
+                "FilterSet.json",
+                "FilterCube.json"
+            ],
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " (a ",
+            "textAfter": " filter set), "
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Additional dichroic mirror",
+            "Add_to_same_row": 0,
+            "CheckHardwareJSON": 1,
+            "Schema_ID": [
+                "AdditionalDichroic.json"
+            ],
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": "",
+            "textAfter": " additional dichroic mirror, "
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Additional Filter",
+            "Add_to_same_row": 0,
+            "CheckHardwareJSON": 1,
+            "Schema_ID": [
+                "AdditionalFilter.json"
+            ],
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": "",
+            "textAfter": " additional filter, "
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Beamsplitter",
+            "Add_to_same_row": 0,
+            "CheckHardwareJSON": 1,
+            "Schema_ID": [
+                "BeamSplitter.json"
+            ],
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "textbefore": "",
+            "textAfter": " beamsplitter, "
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Detector",
+            "Add_to_same_row": 0,
+            "CheckHardwareJSON": 1,
+            "Schema_ID": [
+                "CCD.json",
+                "CMOS.json",
+                "GenericDetector.json",
+                "PhotoMultiplier.json",
+                "GenericDetector.json",
+                "Detector.json",
+                "IntensifiedCCD.json",
+                "PointDetector.json",
+                "PhotoDiode.json",
+                "HybridPhotoDetector.json"
+            ],
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [],
+            "Dialog_arg_2": "choice1",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": "and emission light was collected on a ",
+            "textAfter": " detector "
+        },
+        {
+            "Dialog_Box": "CommonSettings",
+            "Setting": "Detector gain: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " with the gain set to ",
+            "textAfter": ". "
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Pixel Dwell time (in us): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": "Images were collected with a pixel dwell time of ",
+            "textAfter": " us,"
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Light source intensity: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " with the light source set to ",
+            "textAfter": " %,"
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Light intensity modulated with: ",
+            "Add_to_same_row": 1,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "AOTF",
+                "ND Filter",
+                "Direct Modulation"
+            ],
+            "Dialog_arg_2": "AOTF",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " modulated using a/an ",
+            "textAfter": " ,"
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Line integration: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addSlider",
+            "Dialog_arg_1": 1,
+            "Dialog_arg_2": 16,
+            "Dialog_arg_3": 1,
+            "Dialog_arg_4": "",
+            "textbefore": " with ",
+            "textAfter": " x line "
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Averaging or Accumulation: ",
+            "Add_to_same_row": 1,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "averaging",
+                "accumulation"
+            ],
+            "Dialog_arg_2": "averaging",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": "",
+            "textAfter": " and "
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Frame integration: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addSlider",
+            "Dialog_arg_1": 1,
+            "Dialog_arg_2": 16,
+            "Dialog_arg_3": 1,
+            "Dialog_arg_4": "",
+            "textbefore": "with ",
+            "textAfter": " x frame "
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Averaging or Accumulation: ",
+            "Add_to_same_row": 1,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "averaging",
+                "accumulation"
+            ],
+            "Dialog_arg_2": "averaging",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": "",
+            "textAfter": ", "
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Scan directionality: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "unidirectional",
+                "bidirectional"
+            ],
+            "Dialog_arg_2": "unidirectional",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": "using ",
+            "textAfter": " scanning "
+        },
+        {
+            "Dialog_Box": "ConfocalSettings",
+            "Setting": "Pinhole size (in um): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": "with a pinhole size of ",
+            "textAfter": " um. "
+        },
+        {
+            "Dialog_Box": "CameraAcqSettings",
+            "Setting": "Exposure time (in ms): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " Images were acquired with an exposure time of ",
+            "textAfter": " ms, "
+        },
+        {
+            "Dialog_Box": "CameraAcqSettings",
+            "Setting": "Light source intensity: : ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " with the light source set to ",
+            "textAfter": " (UNITS %, mW etc),"
+        },
+        {
+            "Dialog_Box": "CameraAcqSettings",
+            "Setting": "Light intensity modulated with: ",
+            "Add_to_same_row": 1,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "AOTF",
+                "ND Filter",
+                "Direct Modulation"
+            ],
+            "Dialog_arg_2": "AOTF",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " modulated using a ",
+            "textAfter": " ,"
+        },
+        {
+            "Dialog_Box": "CameraAcqSettings",
+            "Setting": "Camera binning: ",
+            "Add_to_same_row": 1,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "1x1",
+                "2x2",
+                "4x4"
+            ],
+            "Dialog_arg_2": "1x1",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": "",
+            "textbefore": " and with ",
+            "textAfter": " camera binning. "
+        },
+        {
+            "Dialog_Box": "TIRF settings",
+            "Setting": "Method (objective or prism): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "Objective",
+                "Prism"
+            ],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "TIRF settings",
+            "Setting": "Geometry: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "Point",
+                "Ring"
+            ],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "TIRF settings",
+            "Setting": "TIRF or HILO: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "TIRF",
+                "HILO"
+            ],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "Spinning disk hardware",
+            "Setting": "Spinning disk scan head (eg. CSU-W1, Diskovery, A1R, DragonFly, etc): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "Spinning disk hardware",
+            "Setting": "Manufacturer: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "Spinning disk hardware",
+            "Setting": "Disk speed (RPM): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalHardware",
+            "Setting": "Scanhead (e.g. LSM800, SP8, A1R): ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalHardware",
+            "Setting": "Manufacturer: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addStringField",
+            "Dialog_arg_1": "",
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "ConfocalHardware",
+            "Setting": "Scanning mechanism: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addChoice",
+            "Dialog_arg_1": [
+                "Galvo",
+                "Resonant"
+            ],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        },
+        {
+            "Dialog_Box": "Additional Information",
+            "Setting": "Acknowledgement: ",
+            "Add_to_same_row": 0,
+            "Dialog_Type": "addMessage",
+            "Dialog_arg_1": [
+                "Images were collected and/or image processing and analysis for this manuscript was performed in the McGill University Advanced BioImaging Facility (ABIF), RRID:SCR_017697"
+            ],
+            "Dialog_arg_2": "",
+            "Dialog_arg_3": "",
+            "Dialog_arg_4": ""
+        }
+    ]
+}
